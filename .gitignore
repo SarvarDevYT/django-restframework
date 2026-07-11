@@ -1,0 +1,12 @@
+.venv/
+*.pyc
+__pycache__/
+db.sqlite3
+.idea/
+.vscode/
+*.mp4
+*.png
+storyboard.html
+extract_frames.py
+inspect_video.py
+generate_storyboard.py
