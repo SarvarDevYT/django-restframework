@@ -7,6 +7,6 @@ class MalumotAPi(generics.ListAPIView):
     queryset = Talaba.objects.all()
     serializer_class = TalabaSerializers
 
-class AvtomobilListCreateAPI(generics.ListCreateAPIView):
+class AvtomobilListAPI(generics.ListAPIView):
     queryset = Avtomobil.objects.all()
     serializer_class = AvtomobilSerializer
